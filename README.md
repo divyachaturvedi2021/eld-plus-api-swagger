@@ -1,1 +1,4 @@
-# eld-plus-api-swagger
+# eld-plus-api-thunder-collection
+
+Install VSCode
+Install ThunderClient Plugin
