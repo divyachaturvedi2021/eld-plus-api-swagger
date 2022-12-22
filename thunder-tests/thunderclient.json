@@ -3,12 +3,45 @@
     "_id": "c722141a-da66-42d1-935a-996a1020c320",
     "colId": "d86f26db-d0b5-4da2-8e36-6447ddad2187",
     "containerId": "",
-    "name": "Post-CheckUserExists",
+    "name": "CheckUserExists",
     "url": "{{BASE_URL}}/v8/checkUserExist",
     "method": "POST",
     "sortNum": 10000,
     "created": "2022-12-22T18:20:19.360Z",
-    "modified": "2022-12-22T18:27:37.201Z",
+    "modified": "2022-12-22T18:51:41.702Z",
+    "headers": [
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      },
+      {
+        "name": "User-MAC",
+        "value": "9AA1C134-61A4-4A83-891A-33715465AA4D"
+      },
+      {
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"11\": 0,\n  \"122\": \"Winter2019\",\n  \"144\": \"GMT-5\",\n  \"145\": \"America/Toronto\",\n  \"161\": \"vineet@test.com\",\n  \"162\": \"-,-\",\n  \"163\": \"9AA1C134-61A4-4A83-891A-33715465AA4D\",\n  \"10\": 1671734661000\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "62ad6026-53d7-4760-9366-99aa91498000",
+    "colId": "fc25af53-d2dc-4924-a61c-b654e84b52cb",
+    "containerId": "",
+    "name": "CheckUserExists",
+    "url": "{{BASE_URL}}/v7/checkUserExist",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-12-22T18:36:00.966Z",
+    "modified": "2022-12-22T18:39:04.353Z",
     "headers": [
       {
         "name": "User-Agent",
