@@ -1,0 +1,44 @@
+[
+  {
+    "_id": "1d88a360-899b-4bcf-aa61-ac469f7de654",
+    "name": "PlusLocal",
+    "default": false,
+    "sortNum": 10000,
+    "created": "2022-12-22T18:17:50.592Z",
+    "modified": "2022-12-22T18:17:50.592Z",
+    "data": [
+      {
+        "name": "BASE_URL",
+        "value": "http://localhost:8087/app/"
+      }
+    ]
+  },
+  {
+    "_id": "4ebe3bec-2219-429a-910e-261adedd9bd6",
+    "name": "PlusDev",
+    "default": false,
+    "sortNum": 20000,
+    "created": "2022-12-22T18:18:53.889Z",
+    "modified": "2022-12-22T18:18:53.889Z",
+    "data": [
+      {
+        "name": "BASE_URL",
+        "value": "https://dev-plus.eldmandate.biz/app/"
+      }
+    ]
+  },
+  {
+    "_id": "be94d81b-db64-4798-b3e9-82066d613a0c",
+    "name": "PlusProd",
+    "default": true,
+    "sortNum": 30000,
+    "created": "2022-12-22T18:19:26.345Z",
+    "modified": "2022-12-22T18:19:26.345Z",
+    "data": [
+      {
+        "name": "BASE_URL",
+        "value": "https://plus.eldmandate.biz/app/"
+      }
+    ]
+  }
+]

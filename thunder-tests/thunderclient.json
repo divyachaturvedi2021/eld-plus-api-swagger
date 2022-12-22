@@ -1,0 +1,31 @@
+[
+  {
+    "_id": "c722141a-da66-42d1-935a-996a1020c320",
+    "colId": "d86f26db-d0b5-4da2-8e36-6447ddad2187",
+    "containerId": "",
+    "name": "Post-CheckUserExists",
+    "url": "{{BASE_URL}}/v8/checkUserExist",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-12-22T18:20:19.360Z",
+    "modified": "2022-12-22T18:27:37.201Z",
+    "headers": [
+      {
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"10\": 1671538783541,\n  \"122\": \"123\",\n  \"144\": \"India Standard Time\",\n  \"145\": \"Asia/Calcutta\",\n  \"161\": \"sashi\",\n  \"162\": \"-,-\",\n  \"163\": \"bb2ff8e86b772107\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
