@@ -64,5 +64,49 @@
       "form": []
     },
     "tests": []
+  },
+  {
+    "_id": "affe08d2-6493-4e41-ab1d-524ef981c7d5",
+    "colId": "d86f26db-d0b5-4da2-8e36-6447ddad2187",
+    "containerId": "",
+    "name": "getRuleMasterList",
+    "url": "{{BASE_URL}}/v8/getRuleMasterList",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2022-12-26T10:32:44.949Z",
+    "modified": "2022-12-26T10:33:33.615Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "e6708dfc-67ab-4f1e-b39e-2db17da44c4b",
+    "colId": "fc25af53-d2dc-4924-a61c-b654e84b52cb",
+    "containerId": "",
+    "name": "getRuleMasterList",
+    "url": "{{BASE_URL}}/v5/getRuleMasterList?lastModified=0",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2022-12-26T10:34:01.001Z",
+    "modified": "2022-12-26T10:35:23.067Z",
+    "headers": [
+      {
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
+      },
+      {
+        "name": "User-MAC",
+        "value": "d535f43f1e13dbd5"
+      }
+    ],
+    "params": [
+      {
+        "name": "lastModified",
+        "value": "0",
+        "isPath": false
+      }
+    ],
+    "tests": []
   }
 ]
