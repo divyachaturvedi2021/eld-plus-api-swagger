@@ -108,17 +108,5 @@
       }
     ],
     "tests": []
-  },
-  {
-    "_id": "a8e24030-5d42-4b2e-a833-0c35fddf6d87",
-    "colId": "fc25af53-d2dc-4924-a61c-b654e84b52cb",
-    "containerId": "",
-    "name": "dummy",
-    "url": "",
-    "method": "GET",
-    "sortNum": 30000,
-    "created": "2022-12-27T12:23:04.217Z",
-    "modified": "2022-12-27T12:23:04.217Z",
-    "headers": []
   }
 ]
