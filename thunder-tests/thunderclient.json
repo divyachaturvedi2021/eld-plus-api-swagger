@@ -108,5 +108,81 @@
       }
     ],
     "tests": []
+  },
+  {
+    "_id": "a66cd3f3-418e-4348-ae7c-280f0ca30a3c",
+    "colId": "fc25af53-d2dc-4924-a61c-b654e84b52cb",
+    "containerId": "",
+    "name": "getDVIRAccessories",
+    "url": "{{BASE_URL}}/v6/getDVIRAccessories",
+    "method": "POST",
+    "sortNum": 15000,
+    "created": "2023-01-03T16:11:50.029Z",
+    "modified": "2023-01-03T16:22:19.891Z",
+    "headers": [
+      {
+        "name": "Content-Type",
+        "value": "application/json",
+        "isDisabled": true
+      },
+      {
+        "name": "User-MAC",
+        "value": "1756cb40f39c1279"
+      },
+      {
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
+      },
+      {
+        "name": "Auth_Token",
+        "value": "0881a2f4e2c95713ddcf76c7d7cb91cd30751c6a0b03fc418f291ec0910555ed"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formencoded",
+      "raw": "",
+      "form": [
+        {
+          "name": "companyId",
+          "value": "2824"
+        }
+      ]
+    },
+    "tests": []
+  },
+  {
+    "_id": "dbecd1b6-e891-43a3-a97b-144f687efc7d",
+    "colId": "fc25af53-d2dc-4924-a61c-b654e84b52cb",
+    "containerId": "",
+    "name": "getDVIRAccessories (Bad Request)",
+    "url": "{{BASE_URL}}/v6/getDVIRAccessories",
+    "method": "POST",
+    "sortNum": 17500,
+    "created": "2023-01-03T16:17:44.992Z",
+    "modified": "2023-01-03T16:22:37.154Z",
+    "headers": [
+      {
+        "name": "Content-Type",
+        "value": "application/json",
+        "isDisabled": true
+      },
+      {
+        "name": "User-MAC",
+        "value": "1756cb40f39c1279"
+      },
+      {
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
+      },
+      {
+        "name": "Auth_Token",
+        "value": "0881a2f4e2c95713ddcf76c7d7cb91cd30751c6a0b03fc418f291ec0910555ed"
+      }
+    ],
+    "params": [],
+    "tests": []
   }
 ]
