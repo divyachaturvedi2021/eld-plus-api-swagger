@@ -118,25 +118,25 @@
     "method": "POST",
     "sortNum": 15000,
     "created": "2023-01-03T16:11:50.029Z",
-    "modified": "2023-01-03T16:22:19.891Z",
+    "modified": "2023-01-03T16:25:06.809Z",
     "headers": [
-      {
-        "name": "Content-Type",
-        "value": "application/json",
-        "isDisabled": true
-      },
       {
         "name": "User-MAC",
         "value": "1756cb40f39c1279"
       },
       {
-        "name": "User-Agent",
-        "value": "Thunder Client (https://www.thunderclient.com)",
+        "name": "Auth_Token",
+        "value": "0881a2f4e2c95713ddcf76c7d7cb91cd30751c6a0b03fc418f291ec0910555ed"
+      },
+      {
+        "name": "Accept",
+        "value": "*/*",
         "isDisabled": true
       },
       {
-        "name": "Auth_Token",
-        "value": "0881a2f4e2c95713ddcf76c7d7cb91cd30751c6a0b03fc418f291ec0910555ed"
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
       }
     ],
     "params": [],
@@ -161,25 +161,25 @@
     "method": "POST",
     "sortNum": 17500,
     "created": "2023-01-03T16:17:44.992Z",
-    "modified": "2023-01-03T16:22:37.154Z",
+    "modified": "2023-01-03T16:25:32.577Z",
     "headers": [
-      {
-        "name": "Content-Type",
-        "value": "application/json",
-        "isDisabled": true
-      },
       {
         "name": "User-MAC",
         "value": "1756cb40f39c1279"
       },
       {
-        "name": "User-Agent",
-        "value": "Thunder Client (https://www.thunderclient.com)",
+        "name": "Auth_Token",
+        "value": "0881a2f4e2c95713ddcf76c7d7cb91cd30751c6a0b03fc418f291ec0910555ed"
+      },
+      {
+        "name": "Accept",
+        "value": "*/*",
         "isDisabled": true
       },
       {
-        "name": "Auth_Token",
-        "value": "0881a2f4e2c95713ddcf76c7d7cb91cd30751c6a0b03fc418f291ec0910555ed"
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
       }
     ],
     "params": [],
